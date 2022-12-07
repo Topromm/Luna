@@ -1,5 +1,5 @@
 # Lunabot
-[![paypal](https://camo.githubusercontent.com/2bfa6102e99ff9a137185897b0a566aa0977a4790348c462e6951829e787af8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6e6174652d50617950616c2d677265656e2e737667)](https://www.paypal.com/donate/?hosted_button_id=VWRS6ACLWVK7G) [![license](https://camo.githubusercontent.com/e8d5c98b8acdc98a82b8e1b03c8c256539417ce8eb7199f0e20e50edc50f6d03/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f61707075313233322f446973636f72642d53656c66626f742e7376673f7374796c653d666c61742d737175617265)](https://github.com/Wanrell/Lunabot/blob/main/LICENSE)
+[![license](https://camo.githubusercontent.com/e8d5c98b8acdc98a82b8e1b03c8c256539417ce8eb7199f0e20e50edc50f6d03/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f61707075313233322f446973636f72642d53656c66626f742e7376673f7374796c653d666c61742d737175617265)](https://github.com/Wanrell/Lunabot/blob/main/LICENSE)
 
 Lunabot offers some of the most advanced tools &amp; features on the Discord platform, including utility &amp; server management tools and fun user commands. Whenever you see a ROLE1, CHANNEL1, MEMBER1 or other markings in the code, it's a placeholder that you'll want to replace with a role, channel or member ID in your own code. 
 
