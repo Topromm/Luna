@@ -23,4 +23,4 @@ Lunabot offers some of the most advanced tools &amp; features on the Discord pla
 - Other useful commands for checking ping, extensions and getting help with the bot.
 
 ## Acknowledgements
-- Thanks to [Mazz](https://open.spotify.com/artist/5v5XQj9x7TC3AXgUOPBcpx) for never participating in this project.
+- Thanks to [Mazz](https://open.spotify.com/artist/5v5XQj9x7TC3AXgUOPBcpx) for never participating on this project.
