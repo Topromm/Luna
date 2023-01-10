@@ -24,6 +24,3 @@ Lunabot offers some of the most advanced tools &amp; features on the Discord pla
 
 ## Acknowledgements
 - Thanks to [Mazz](https://open.spotify.com/artist/5v5XQj9x7TC3AXgUOPBcpx) for never participating in this project.
-
-## Support the project
-This bot is open source and will always remain that way. That said, you can still show your appreciation by giving me a follow or donating through my [Paypal](https://www.paypal.com/donate/?hosted_button_id=VWRS6ACLWVK7G). Thanks in advance!
