@@ -221,7 +221,7 @@ class CommandsCog(commands.Cog):
     async def help(self, ctx):
     # Replaces the standard help command and shows helpful info about the bot and it's commands.
         if ctx.message.channel.id in (CHANNEL1, CHANNEL2) or ctx.message.author.id in (MEMBER1, MEMBER2):
-            embed=discord.Embed(title="**Need help?**", description="You can do `?[command]` to run a command. \nSome commands require additional information after the initial command. \n\nYou can see a list of commands and categories below.\nYou can read more about a certain category by mentioning it after the `?` prefix. \n\n**Fun • 18** \n`coinflip`, `lenny`, `typing`, `countdown`, `emote`, `avatar`, `choose`, `8ball`, `slot`, `f`, `rate`, `hot`, `meme`, `wholesomememe`, `snipe`, `editsnipe`, `staffsnipe`, `staffeditsnipe` \n\n**Gifs • 7** \n`pain`, `pain2`, `dolor`, `dolor2`, `trash`, `fbi`, `wtf` \n\n**Other • 5** \n`help`, `ping`, `info`, `uptime`, `invlink`", color=0x000000)
+            embed=discord.Embed(title="**Need help?**", description="You can do `?[command]` to run a command. \nSome commands require additional information after the initial command. \n\nYou can see a list of commands and categories below.\nYou can read more about a certain category by mentioning it after the `?` prefix. \n\n**Fun • 12** \n`coinflip`, `typing`, `countdown`, `emote`, `avatar`, `8ball`, `slot`, `rate`, `snipe`, `editsnipe`, `staffsnipe`, `staffeditsnipe` \n\n**Other • 5** \n`help`, `ping`, `info`, `uptime`, `invlink`", color=0x000000)
             await ctx.send(embed=embed)
 
     @commands.command()
