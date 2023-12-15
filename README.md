@@ -21,6 +21,3 @@ Lunabot offers some of the most advanced tools &amp; features on the Discord pla
 - Text to Speech with [gTTS](https://pypi.org/project/gTTS/) for communicating in voice channels through the bot. 
 - Fun server commands that utilize lists, random variable generators and the [PRAW](https://praw.readthedocs.io/en/stable/).
 - Other useful commands for checking ping, extensions and getting help with the bot.
-
-## Acknowledgements
-- Thanks to [Mazz](https://open.spotify.com/artist/5v5XQj9x7TC3AXgUOPBcpx) for never participating on this project.
