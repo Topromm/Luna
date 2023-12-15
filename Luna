@@ -13,15 +13,8 @@ initial_extensions = [ "errorhandler", "roles", "joins", "owner", "commands"]
 
 @bot.event
 async def on_ready():
-    # This is the message you'll see in the CMD window once you turn the bot on.
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="you | ?help"), status=discord.Status.idle)
     print('┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓')
-    print('┃Lunabot V1.1.4                  ┃')
-    print('┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫')
-    print('┃SYSTEM: ONLINE                  ┃')
-    print('┃COGS: LOADED                    ┃')
-    print('┃COMMANDS: LOADED                ┃')
-    print('┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫')
     print('┃Logged in as: Luna              ┃')
     print('┃Lunabot', 'ID:', bot.user.id, ' ┃')
     print('┕━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛')
@@ -77,10 +70,7 @@ async def shutdown(ctx):
 
 shutdown = [
 "Closing down",
-"Bye bye",
-"Goodnight",
-"Shutting down",
-"on it"]
+"Shutting down"]
 
 
 bot.run("TOKEN")
