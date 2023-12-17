@@ -15,7 +15,7 @@ Luna offers some of the most advanced tools &amp; features on the Discord platfo
 - Welcome messages and a tool that removes accounts that are under 24 hours old. 
 - errorhandler to let users know of errors while trying to execute some commands. 
 - Logging for user deleted & edited content and direct messages sent to the bot. 
-- Latest removed & edited message sniping, separated for normal users and staff.
+- Latest removed & edited message sniping, separated for normal users and moderators.
 - Utility commands for adding roles and creating lists of all server members and more.
 - tools for sending direct messages, server messages and creating & editing embeds.
 - Text to Speech with [gTTS](https://pypi.org/project/gTTS/) for communicating in voice channels through the bot. 
