@@ -252,8 +252,8 @@ class CommandsCog(commands.Cog):
         if ctx.message.channel.id in (CHANNEL1, CHANNEL2, CHANNEL3) or ctx.message.author.id in (MEMBER1, MEMBER2):
             embed=discord.Embed(title="**Luna Info**", color=0x000000)
             embed.set_thumbnail(url="https://i.imgur.com/BeMc3Hf.gif")
-            embed.add_field(name="What is Luna?", value="I'm a useful bot that can be seen on the Lunabox Discord server. \nI help with lots of server related tasks and provide users with fun games and features.", inline=False)
-            embed.add_field(name="Can I add it on my server?", value="The bot is focused only around this server. \nIt is open source so you can follow the development [here](https://github.com/Wanrell/Lunabot).", inline=False)
+            embed.add_field(name="What is Luna?", value="I'm a useful utility and enterntainment bot. \nI help with lots of server related tasks and provide users with fun games and features.", inline=False)
+            embed.add_field(name="Can I add it on my server?", value="The bot is currently not available to the public. \nIt is open source so you can follow the development [here](https://github.com/Wanrell/Lunabot).", inline=False)
             await ctx.send(embed=embed)
 
 
