@@ -1,15 +1,15 @@
 # Luna
 
-Luna is a utility &amp; entertainment bot developed for the Discord platform to help schools, teams and communities manage their servers. 
+Luna is a utility &amp; entertainment tool developed for the Discord platform to help schools, teams and communities manage their teams and servers. 
 Whenever you see a ROLE1, CHANNEL1, MEMBER1 or other markings in the code, it's a placeholder that you'll want to replace and edit with your own info. 
 
 ## To-Do List
 - [x] roles.py updated
 - [ ] errorhandler.py updated
-- [ ] joins.py remade
+- [ ] joins.py remake
 ## Features
 - [Cogs](https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html) for easier code updating and separation.
-- Admin commands to remotely shut down the bot or the entire host machine.
+- Admin commands to remotely shut down the bot or even the entire host machine.
 - Reaction roles: Assigns roles based on chosen reaction emojis.
 - Welcome messages and account removal for accounts under 24 hours old (bot prevention).
 - Error handler: Notifies users of errors while executing commands.
