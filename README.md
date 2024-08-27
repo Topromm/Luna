@@ -1,4 +1,4 @@
-## DISCLAIMER: This project has been discontinued, though I might return to it later.
+## DISCLAIMER: This project has been discontinued and some parts of it might not be up to date.
 
 # Luna
 
