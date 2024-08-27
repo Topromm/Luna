@@ -10,7 +10,7 @@ class JoinsCog(commands.Cog):
 
 	@commands.Cog.listener()
 	async def on_member_join(self, member):
-  # Welcomes new users in the general channel of the chosen guild/server, new accounts that are less than a day old will be kicked out.
+  # Welcomes new users in the general channel of the chosen guild/server, fresh accounts will be kicked as a bot prevention measure.
 		general = GENERAL_CHANNEL_ID
 		guild = GUILD_ID
 		channel = self.bot.get_channel(general)
@@ -20,7 +20,7 @@ class JoinsCog(commands.Cog):
 			await guild.channel.send(f'{member.name} attempted to enter, but their account was under 24 hours old.')					
 			await member.kick() # kicks the member if the account is less than 24 hours old. 
 		else:
-			await guild.channel.send(f'{member.name} has entered the server, give them a warm welcome!') # welcomes member if the account is not too young.
+			await guild.channel.send(f'{member.name} has entered the server, give them a warm welcome!') # welcomes member if the account is old enough.
 
 
 def setup(bot):
