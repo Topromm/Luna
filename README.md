@@ -1,4 +1,5 @@
-## DISCLAIMER: This project has been discontinued and some parts of it might not be up to date.
+## DISCLAIMER: This project has been discontinued.
+Due to a lot of changes in Discord.py, some parts of it might not work as expected.
 
 # Luna
 
