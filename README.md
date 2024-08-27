@@ -1,12 +1,10 @@
+## DISCLAIMER: This project has been discontinued, though I might return to it later.
+
 # Luna
 
 Luna is a utility &amp; entertainment tool developed for the Discord platform to help schools, teams and communities manage their servers. 
-Whenever you see a ROLE1, CHANNEL1, MEMBER1 or other markings in the code, it's a placeholder that you'll want to replace and edit with your own info. 
+Whenever you see a ROLE1, CHANNEL1, MEMBER1 or other markings in the code, it's a placeholder that you'll want to replace with your own info. 
 
-## To-Do List
-- [x] roles.py cleanup
-- [ ] errorhandler.py update
-- [ ] joins.py remake
 ## Features
 - [Cogs](https://discordpy.readthedocs.io/en/stable/ext/commands/cogs.html) for easier code updating and separation.
 - Admin commands to remotely shut down the bot or the host machine if need be.
