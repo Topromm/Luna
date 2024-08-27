@@ -58,19 +58,15 @@ async def reload(ctx, extension_name : str):
 @commands.has_role("Admin")
 async def turnoffhostpc(ctx):
     # Shuts down host PC remotely through the Discord app, requires Admin role.
-    await ctx.send(f'{random.choice(shutdown)}')
+    await ctx.send("Shutting down host")
     await os.system("shutdown /s /t 1")
 
 @bot.command()
 @commands.has_role("Admin")
 async def shutdown(ctx):
     # Shuts the bot down remotely through the Discord app, requires Admin role.
-    await ctx.send(f'{random.choice(shutdown)}')
+    await ctx.send("Shutting down")
     await bot.close()
-
-shutdown = [
-"Closing down",
-"Shutting down"]
 
 
 bot.run("TOKEN")
