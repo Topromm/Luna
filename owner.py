@@ -95,7 +95,7 @@ class OwnerCog(commands.Cog):
 	@commands.command()
 	@commands.has_role('Admin')
 	async def addrole(self, ctx, name, *, color: discord.Colour):
-	# Command for creating new roles, just add a name and even a hex color code after the command if you want to.
+	# Command for creating new roles, just add a name, or even a hex color code if you want to.
 		guild = ctx.guild
 		await guild.create_role(name=name, color=color)
 		await ctx.send("Done!")
@@ -188,5 +188,3 @@ class OwnerCog(commands.Cog):
 
 def setup(bot):
     bot.add_cog(OwnerCog(bot))
-
-				
