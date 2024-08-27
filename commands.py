@@ -9,7 +9,7 @@ import os
 
 start_time = datetime.datetime.utcnow() # Timestamp of when the bot came online.
 
-responses = [
+_8ball_Responses = [
 "It is certain.",
 "It is decidedly so.",
 "Without a doubt.",
@@ -101,7 +101,7 @@ class CommandsCog(commands.Cog):
     async def _8ball(self, ctx):
     # Ask a question and let the magic 8ball define your fate.
         if ctx.message.channel.id in (CHANNEL1, CHANNEL2) or ctx.message.author.id in (MEMBER1, MEMBER2):
-            await ctx.send(f"{random.choice(responses)}")
+            await ctx.send(f"{random.choice(_8ball_Responses)}")
 
     @commands.command(aliases=['flip', 'coin', 'cf'])
     @commands.cooldown(rate=1, per=2.0, type=commands.BucketType.user)
