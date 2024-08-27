@@ -166,14 +166,14 @@ class CommandsCog(commands.Cog):
     @commands.command()
     @commands.cooldown(rate=1, per=2.0, type=commands.BucketType.user)
     async def ping(self, ctx):
-    # The bot will return you it's ping in milliseconds so you know if there is any latency.
+    # The bot will return you it's ping in milliseconds, so you know if there is any latency.
         if ctx.message.channel.id in (CHANNEL1, CHANNEL2) or ctx.message.author.id in (MEMBER1, MEMBER2):
             await ctx.send('Latency: {0}ms'.format(round(self.bot.latency, 1)))
 
     @commands.command()
     @commands.cooldown(rate=1, per=2.0, type=commands.BucketType.user)
     async def emote(self, ctx, emoji :discord.Emoji):
-    # The bot will show you the chosen emote in larger view (the bot must be in the server where the emote is from).
+    # The bot will show you the chosen custom emoji in larger view (the bot must be in the server where the emoji is from).
         if ctx.message.channel.id in (CHANNEL1, CHANNEL2) or ctx.message.author.id in (MEMBER1, MEMBER2):
             await ctx.message.delete()
             embed = discord.Embed(colour=0x1f0000)
@@ -211,7 +211,7 @@ class CommandsCog(commands.Cog):
     @commands.cooldown(rate=1, per=2.0, type=commands.BucketType.user)
     @commands.has_role('Admin')
     async def extensions(self, ctx):
-    # The bot will list all of it's extensions, update this when needed as it is just a bunch of text.
+    # The bot will list all of it's extensions, update this when needed as it is just a string.
         if ctx.message.channel.id in (CHANNEL1, CHANNEL2) or ctx.message.author.id in (MEMBER1, MEMBER2):
             embed=discord.Embed(title="**Luna Extensions**", description="`Roles` \nContains reaction roles. \n`music` \nContains music commands. \n`Commands` \nContains all other commands. \n`Owner` \nContains tests and owner only commands. \n`Errorhandler` \nContains error messages for most common issues and errors. \n`Joins` \nContains certain actions that are triggered when new users join the server.", color=0x000000)
             await ctx.send(embed=embed)
@@ -233,9 +233,9 @@ class CommandsCog(commands.Cog):
             embed.add_field(name=":coin: coinflip", value="Flip a coin!", inline=False)
             embed.add_field(name="💬 typing", value="The bot will start typing.", inline=False)
             embed.add_field(name="🔢 countdown", value="Starts counting down from five.", inline=False)
-            embed.add_field(name="😀 emote [emote]", value="Luna views chosen server emote.", inline=False)
-            embed.add_field(name=":frame_photo: avatar [user]", value="Luna views chosen Discord avatar.", inline=False)
-            embed.add_field(name="choose [1] [2] ([3])", value="Let Luna help you decide something.", inline=False)
+            embed.add_field(name="😀 emote [emote]", value="Views chosen server emote.", inline=False)
+            embed.add_field(name=":frame_photo: avatar [user]", value="Views chosen Discord avatar.", inline=False)
+            embed.add_field(name="choose [1] [2] ([3])", value="Let the bot help you with a decision", inline=False)
             embed.add_field(name="🎱 8ball [question]", value="Let the magic 8ball decide your fate.", inline=False)
             embed.add_field(name="🎰 slot", value="Roll the slot machine, don't get addicted!", inline=False)
             embed.add_field(name="🔟 rate [user]", value="Bot will rate the chosen user.", inline=False)
@@ -253,7 +253,7 @@ class CommandsCog(commands.Cog):
             embed=discord.Embed(title="**Luna Info**", color=0x000000)
             embed.set_thumbnail(url="https://i.imgur.com/BeMc3Hf.gif")
             embed.add_field(name="What is Luna?", value="I'm a useful utility and enterntainment bot. \nI help with lots of server related tasks and provide users with fun games and features.", inline=False)
-            embed.add_field(name="Can I add it on my server?", value="The bot is currently not available to the public. \nIt is open source so you can follow the development [here](https://github.com/Wanrell/Lunabot).", inline=False)
+            embed.add_field(name="Can I add it to my server?", value="The bot is currently not available to the public. \nThough it is open source, so you can save the code & follow the development [here](https://github.com/Tporomm/Luna).", inline=False)
             await ctx.send(embed=embed)
 
 
